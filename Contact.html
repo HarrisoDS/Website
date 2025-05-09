@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* CSS found via youtube and tweaked to my liking */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #FF99DD;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+        }
+        .home-button {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .home-button a {
+            text-decoration: none;
+            color: #710404;
+            font-size: 18px;
+            background: rgb(255, 255, 255);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            background: #c70476;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+        footer {
+            text-align: center;
+            background: #FF99DD;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="home-button"> <!-- Leads back to the home page -->
+            <a href="Unit_6_Craven_Heritage_Railway_&_Castle.html">Home</a>
+        </div>
+        <h1>Contact Us</h1> <!-- Contact page -->
+    </header>
+   
+    <div class="container"> <!-- Links back to the container above the style/format of text and images -->
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, feel free to reach out to us at ministryofpolliwogs@swampnet.com or using the form below.</p>
+<!-- Additional contact email that is easily seen -->
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="Blockmail" name="email" placeholder="Enter your Blockmail">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form> <!-- This form would allow users to enter personal data if they wish to ask additonal questions
+        or find out more that they are unable to find on the website -->
+    </div>
+
+    <footer>
+        &copy;2025 Ministry of Polliwogs in cooperation with F.R.O.G..
+    </footer>
+
+</body>
+</html>
